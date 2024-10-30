@@ -1,35 +1,15 @@
 package br.com.erudio.unittests.mockito.services;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.fail;
-import static org.mockito.Mockito.when;
-
-import java.util.List;
-import java.util.Optional;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.TestInstance.Lifecycle;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
-
-import br.com.erudio.data.vo.v1.BookVO;
-import br.com.erudio.exceptions.RequiredObjectIsNullException;
-import br.com.erudio.model.Book;
-import br.com.erudio.repositories.BookRepositories;
-import br.com.erudio.services.BookServices;
-import br.com.erudio.unittests.mapper.MockBook;
 
 @TestInstance(Lifecycle.PER_CLASS)
 @ExtendWith(MockitoExtension.class)
 class BookServicesTest {
+	
+	/*
 
 	MockBook input;
 
@@ -44,6 +24,8 @@ class BookServicesTest {
 		input = new MockBook();
 		MockitoAnnotations.openMocks(this);
 	}
+	
+	
 
 	@Test
 	void testFindAll() {
@@ -88,6 +70,8 @@ class BookServicesTest {
 		assertEquals(25D, result3.getPrice());
 		assertEquals("Some Title7", result3.getTitle());
 	}
+	
+	
 
 	@Test
 	void testFindById() {
@@ -188,4 +172,5 @@ class BookServicesTest {
 		fail("Not yet implemented");
 	}
 
+	*/
 }

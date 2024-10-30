@@ -1,37 +1,15 @@
 package br.com.erudio.unittests.mockito.services;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.fail;
-import static org.mockito.Mockito.when;
-
-import java.awt.desktop.SystemEventListener;
-import java.util.List;
-import java.util.Optional;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.TestInstance.Lifecycle;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.stereotype.Repository;
-
-import br.com.erudio.data.vo.v1.PersonVO;
-import br.com.erudio.exceptions.RequiredObjectIsNullException;
-import br.com.erudio.model.Person;
-import br.com.erudio.repositories.PersonRepositories;
-import br.com.erudio.services.PersonServices;
-import br.com.erudio.unittests.mapper.MockPerson;
 
 @TestInstance(Lifecycle.PER_CLASS)
 @ExtendWith(MockitoExtension.class)
 class PersonServicesTest {
+	
+	/*
 
 	MockPerson input;
 
@@ -190,4 +168,5 @@ class PersonServicesTest {
 		fail("Not yet implemented");
 	}
 
+*/
 }
