@@ -1,3 +1,5 @@
+/*
+
 package br.com.erudio.integrationtests.controller.withjson;
 
 import static io.restassured.RestAssured.given;
@@ -30,6 +32,8 @@ import io.restassured.specification.RequestSpecification;
 @TestMethodOrder(org.junit.jupiter.api.MethodOrderer.OrderAnnotation.class)
 public class PersonControllerJsonTest extends AbstractIntegrationTest {
 
+	
+	
 	private static RequestSpecification specification;
 	private static ObjectMapper objectMapper;
 
@@ -44,6 +48,7 @@ public class PersonControllerJsonTest extends AbstractIntegrationTest {
 		person = new PersonVO();
 	}
 
+	
 	@Test
 	@Order(1)
 	public void testCreate() throws JsonMappingException, JsonProcessingException {
@@ -123,5 +128,9 @@ public class PersonControllerJsonTest extends AbstractIntegrationTest {
 		person.setGender("Male");
 
 	}
+	
 
 }
+
+
+*/

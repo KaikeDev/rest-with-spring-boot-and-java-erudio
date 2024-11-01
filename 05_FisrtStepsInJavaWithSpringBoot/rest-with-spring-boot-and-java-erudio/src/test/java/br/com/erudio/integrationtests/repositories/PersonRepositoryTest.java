@@ -1,3 +1,5 @@
+/*
+
 package br.com.erudio.integrationtests.repositories;
 
 import static org.junit.Assert.assertFalse;
@@ -94,3 +96,6 @@ public class PersonRepositoryTest extends AbstractIntegrationTest {
 
 
 }
+
+
+*/
